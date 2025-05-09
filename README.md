@@ -175,7 +175,7 @@ scrapy crawl consult_selenium
     }
   ]
 }
-
+```
 
 ## 📝 Auteurs
 
