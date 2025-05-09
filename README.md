@@ -17,6 +17,10 @@ Toutes les données sont fusionnées dans une base MongoDB sous forme d’un doc
 - **MongoDB** – Base de données NoSQL pour stocker les résultats
 - **Python 3.10+**
 
+## 🖥️ Drive Prérequis
+
+- Google Chrome installé
+- [ChromeDriver](https://sites.google.com/chromium.org/driver/) dans `C:/Drivers/chromedriver-win64/`
 ---
 
 ## 🕷️ Spiders inclus
