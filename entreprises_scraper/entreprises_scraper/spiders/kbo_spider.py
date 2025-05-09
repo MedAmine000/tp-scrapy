@@ -7,7 +7,7 @@ class KboSpider(scrapy.Spider):
     allowed_domains = ["kbopub.economie.fgov.be"]
 
     def start_requests(self):
-        csv_path = Path(__file__).parents[2] / "entreprise.csv"
+        csv_path = Path(__file__).parents[2] / "test_entreprise.csv"
         self.logger.info(f"Lecture du fichier CSV : {csv_path}")
 
         with open(csv_path, newline='', encoding='utf-8') as csvfile:

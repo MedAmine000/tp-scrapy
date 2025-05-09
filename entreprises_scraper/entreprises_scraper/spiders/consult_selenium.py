@@ -17,7 +17,7 @@ class ConsultSeleniumSpider(scrapy.Spider):
     allowed_domains = ["consult.cbso.nbb.be"]
 
     def start_requests(self):
-        csv_path = Path(__file__).parents[2] / "entreprise.csv"
+        csv_path = Path(__file__).parents[2] / "test_entreprise.csv"
         with open(csv_path, newline='', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
