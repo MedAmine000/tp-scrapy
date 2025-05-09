@@ -94,6 +94,89 @@ scrapy crawl consult_selenium
 
 ---
 
+
+
+
+## Exemple de Document en sortie ...
+
+```json
+{
+  "numero": "200068636",
+  "url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=200068636",
+  "generalites": {
+    "nom": "TUSSENGEMEENTELIJKE MAATSCHAPPIJ DER VLAANDEREN VOOR WATERVOORZIENING",
+    "adresse": "STROPSTRAAT 1 9000 GENT"
+  },
+  "fonctions": [
+    {
+      "fonction": "Administrateur",
+      "nom": "Foulon, Jan",
+      "date": "Depuis le 22 juin 2007"
+    }
+  ],
+  "capacites_entrepreneuriales": [
+    "Pas de données reprises dans la BCE."
+  ],
+  "qualites": [
+    "Employeur ONSS Depuis le 1 janvier 2022",
+    "Pouvoir adjudicateur Depuis le 16 février 1923"
+  ],
+  "autorisations": [
+    {
+      "label": "BELAC - Laboratoire d'essais",
+      "url": "https://weblist.economie.fgov.be/fr/belac/0200.068.636"
+    }
+  ],
+  "codes_nace": {
+    "2008": [
+      {
+        "texte": "TVA 2008 93.126 - Activités de clubs de sports nautiques Depuis le 22 juillet 2008",
+        "code": "93.126",
+        "url": null
+      }
+    ]
+  },
+  "donnees_financieres": {
+    "Capital": "1.978.935,00 EUR",
+    "Assemblée générale": "mai",
+    "Date de fin de l'année comptable": "31 décembre"
+  },
+  "liens_entites": [
+    {
+      "texte": "0427.324.788 (AQUINTER) est absorbée par cette entité depuis le 23 décembre 2004",
+      "url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?ondernemingsnummer=427324788"
+    }
+  ],
+  "liens_externes": [
+    {
+      "texte": "Publications au Moniteur belge",
+      "url": "https://www.ejustice.just.fgov.be/cgi_tsv/list.pl?language=fr&btw=0200068636&page=1&view_numac=0200068636#SUM"
+    }
+  ],
+  "publications_ejustice": [
+    {
+      "denomination": "FARYS",
+      "adresse": "STROPSTRAAT 1 9000 GENT",
+      "numero_entreprise": "200.068.636",
+      "type": "STATUTEN (VERTALING, COÖRDINATIE, OVERIGE WIJZIGINGEN, …)",
+      "date_reference": "2024-06-19",
+      "url": "https://www.ejustice.just.fgov.be/tsv_pdf/2024/06/19/24092810.pdf"
+    }
+  ],
+  "documents_consult": [
+    {
+      "model": "Model voor geconsolideerde jaarrekening",
+      "statut": "Initial",
+      "reference": "Référence 2024-00231588",
+      "date_depot": "Date de dépôt 04/07/2024",
+      "date_exercice": "31/12/2023",
+      "langue": "NL",
+      "lien_pdf": null
+    }
+  ]
+}
+
+
 ## 📝 Auteurs
 
 - 💻 Projet réalisé par Korniti MedAmine
